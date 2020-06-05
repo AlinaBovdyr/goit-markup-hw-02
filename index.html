@@ -4,30 +4,37 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Web Studio</title>
+    <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
     <!-- Шапка сайта -->
     <header>
       <nav>
         <!-- Логотип -->
-        <a href="./index.html">Web Studio</a>
-        <ul>
+        <a class="logo" href="./index.html"
+          >Web
+          <span class="header-logo">Studio</span>
+        </a>
+
+        <ul class="list site-nav">
           <li>
-            <a href="./index.html">Студия</a>
+            <a class="link" href="./index.html">Студия</a>
           </li>
           <li>
-            <a href="./portfolio.html">Портфолио</a>
+            <a class="link" href="./portfolio.html">Портфолио</a>
           </li>
           <li>
-            <a href="">Контакты</a>
+            <a class="link" href="">Контакты</a>
           </li>
         </ul>
-        <ul>
+        <ul class="list auth-nav">
           <li>
-            <a href="mailto:info@devstudio.com">info@devstudio.com</a>
+            <a class="link" href="mailto:info@devstudio.com"
+              >info@devstudio.com</a
+            >
           </li>
           <li>
-            <a href="tel:+380961111111">+38 096 111 11 11</a>
+            <a class="link" href="tel:+380961111111">+38 096 111 11 11</a>
           </li>
         </ul>
       </nav>
@@ -106,7 +113,7 @@
       <!-- Чем мы занимаемся -->
       <section>
         <h2>Чем мы занимаемся</h2>
-        <ul>
+        <ul class="list">
           <li>
             <a href="">
               <img
@@ -146,7 +153,7 @@
       <!-- Наша команда -->
       <section>
         <h2>Наша команда</h2>
-        <ul lang="en">
+        <ul lang="en" class="list">
           <li>
             <img
               src="./images/section-team/John.jpg"
@@ -156,7 +163,7 @@
             />
             <h4>John Smith</h4>
             <p>Product Designer</p>
-            <ul>
+            <ul class="list">
               <li><a href="" aria-label="Ссылка на Instagram">Instagram</a></li>
               <li><a href="" aria-label="Ссылка на Twitter">Twitter</a></li>
               <li><a href="" aria-label="Ссылка на Facebook">Facebook</a></li>
@@ -172,7 +179,7 @@
             />
             <h4>Marta Stewart</h4>
             <p>Frontend Developer</p>
-            <ul>
+            <ul class="list">
               <li><a href="" aria-label="Ссылка на Instagram">Instagram</a></li>
               <li><a href="" aria-label="Ссылка на Twitter">Twitter</a></li>
               <li><a href="" aria-label="Ссылка на Facebook">Facebook</a></li>
@@ -188,7 +195,7 @@
             />
             <h4>Robert Jakis</h4>
             <p>Marketingr</p>
-            <ul>
+            <ul class="list">
               <li><a href="" aria-label="Ссылка на Instagram">Instagram</a></li>
               <li><a href="" aria-label="Ссылка на Twitter">Twitter</a></li>
               <li><a href="" aria-label="Ссылка на Facebook">Facebook</a></li>
@@ -204,7 +211,7 @@
             />
             <h4>Martin Doe</h4>
             <p>UI Designer</p>
-            <ul>
+            <ul class="list">
               <li><a href="" aria-label="Ссылка на Instagram">Instagram</a></li>
               <li><a href="" aria-label="Ссылка на Twitter">Twitter</a></li>
               <li><a href="" aria-label="Ссылка на Facebook">Facebook</a></li>
@@ -217,7 +224,7 @@
       <!-- Постоянные клиенты -->
       <section>
         <h2>Постоянные клиенты</h2>
-        <ul>
+        <ul class="list">
           <li>
             <a href="">
               <img src="./images/clients/logo-1.svg" alt="Логотип компании-1" />
@@ -252,9 +259,12 @@
       </section>
     </main>
 
-    <footer>
+    <footer class="footer">
       <!-- Логотип -->
-      <a href="./index.html">Web Studio</a>
+      <a class="logo" href="./index.html"
+        >Web
+        <span class="footer-logo">Studio</span>
+      </a>
 
       <address>
         г. Киев, пр-т Леси Украинки, 26 <br />
@@ -263,7 +273,7 @@
       </address>
 
       <b>присоединяйтесь</b>
-      <ul>
+      <ul class="list">
         <li><a href="" aria-label="Ссылка на Instagram">Instagram</a></li>
         <li><a href="" aria-label="Ссылка на Twitter">Twitter</a></li>
         <li><a href="" aria-label="Ссылка на Facebook">Facebook</a></li>

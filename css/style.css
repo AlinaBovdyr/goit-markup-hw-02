@@ -1,0 +1,55 @@
+/* цвет основного текста (p) + телефон, почта #757575; */
+/* цвет заголовков на темном фоне #FFFFFF */
+/* цвет большинства заголовков + навигация #212121; */
+/* ховер + Web + bgr кнопок #2196F3; */
+
+:root {
+    --primary-text-color: #757575;
+    --accent-color: #2196F3;
+    --title-text-color: #212121;
+}
+}
+
+body {
+    color: var(--primary-text-color);
+}
+
+a {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+/* Логотип */
+.logo {
+    color: var(--accent-color);
+}
+
+.header-logo {
+    color: #000000;
+}
+
+.footer-logo {
+    color: #ffffff;
+}
+
+/* Шапка сайта */
+.link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.auth-nav .link {
+    color: var(--primary-text-color);
+}
+
+/* Подвал */
+.footer {
+    background-color: #2F303A;
+}
