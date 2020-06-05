@@ -12,6 +12,12 @@
 
 body {
   color: var(--primary-text-color);
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
 }
 
 a {
@@ -25,6 +31,10 @@ a {
 /* Логотип */
 .logo {
   color: var(--accent-color);
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
 }
 
 .header-logo {
@@ -38,6 +48,11 @@ a {
 /* Шапка сайта */
 .link {
   color: var(--primary-title-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 
 .site-nav .link:hover,
@@ -56,19 +71,67 @@ a {
 .contrast-title {
   color: var(--contrast-title-color);
   background-color: rgba(47, 48, 58, 0.8);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hero h1 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 
 .hero .link {
   color: var(--contrast-title-color);
   background-color: var(--accent-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  text-align: center;
+  letter-spacing: 0.06em;
 }
 
 /* Особенности */
+.features > h2 {
+  color: #ffffff;
+}
+
+.features .primary-title {
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+  text-align: left;
+}
+
 .primary-title {
   color: var(--primary-title-color);
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
 }
 
 /* Наша команда */
+.team .member {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+}
+
+.team {
+  text-align: center;
+}
+
 .team a:hover,
 .team a:focus {
   color: var(--accent-color);
@@ -84,8 +147,18 @@ a {
   color: var(--contrast-title-color);
 }
 
+.footer .logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.18;
+  letter-spacing: 0.03em;
+}
+
 .footer .link {
   color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+  line-height: 1.71;
 }
 
 .footer .link:hover,
@@ -93,6 +166,18 @@ a {
   color: var(--accent-color);
 }
 
+address {
+  font-style: normal;
+}
+
+b {
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
 .copyright {
   color: rgba(255, 255, 255, 0.4);
+  font-size: 12px;
+  line-height: 2;
+  text-align: center;
 }
