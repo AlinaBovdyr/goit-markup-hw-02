@@ -180,3 +180,50 @@ b {
 /* 
 Основной контент страницы Портфолио 
 */
+
+.portfolio h1 {
+  color: #ffffff;
+}
+
+.button,
+.portfolio .link {
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.63;
+  letter-spacing: 0.03em;
+}
+
+.button {
+  color: var(--primary-title-color);
+  font-weight: 500;
+  text-align: center;
+}
+
+.button.curent,
+.button:hover,
+.button:focus {
+  color: var(--contrast-title-color);
+  background-color: var(--accent-color);
+}
+
+.portfolio .link {
+  color: var(--primary-text-color);
+  font-weight: 400;
+  line-height: 1.88;
+}
+
+.list-title {
+  color: var(--primary-title-color);
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.alt-text {
+  color: var(--contrast-title-color);
+  background-color: rgba(33, 150, 243, 0.9);
+  font-size: 18px;
+  line-height: 1.56;
+}
